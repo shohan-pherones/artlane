@@ -8,10 +8,12 @@ import Register from "./pages/Register";
 import Arts from "./pages/Arts";
 import ArtDetails from "./pages/ArtDetails";
 import Cart from "./pages/Cart";
+import { Toaster } from "react-hot-toast";
 
 const App = () => {
   return (
     <div>
+      <Toaster position="bottom-left" reverseOrder={false} />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
