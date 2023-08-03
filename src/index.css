@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* COMMON STYLES */
+.wrapper {
+  @apply container mx-auto px-5 md:px-0;
+}
+
+.section-padding {
+  @apply py-10 md:py-20;
+}
+
+/* SWIPER STYLES */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #65c3c8 !important;
+  fill: #65c3c8 !important;
+  stroke: #65c3c8 !important;
+}
+
+.swiper-pagination-bullet {
+  background-color: #65c3c8 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #65c3c8 !important;
+}
